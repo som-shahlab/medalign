@@ -11,4 +11,4 @@ All data assets will be shared in coming months, under a standard research licen
 
 For more information, please visit [our website](https://medalign.stanford.edu) or read the main MedAlign [paper](https://arxiv.org/abs/2012.07421).
 
-For questions and feedback, please post on the [discussion board](https://github.com/p-lambda/wilds/discussions).
+For questions and feedback, please post on the [discussion board]([https://github.com/p-lambda/wilds/discussions](https://github.com/som-shahlab/medalign/discussions)https://github.com/som-shahlab/medalign/discussions).
