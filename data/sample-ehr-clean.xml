@@ -1,0 +1,157 @@
+<record>
+    <visit type="Emergency Room Visit" start="10/08/2018 20:00">
+        <day start="10/08/2018 20:00">
+            <person>
+                Birth:7/19/1966
+                Race: White
+                Gender: FEMALE
+                Ethnicity: Hispanic or Latino
+                Age in Days: 19074
+                Age in Years: 52
+            </person>
+            <condition_occurrence start="10/08/2018 08:00 PM">
+                <code>[ICD/163.5] Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries</code>
+            </condition_occurrence>
+            <visit_detail start="10/08/2018 08:00 PM">
+                <code>[CARE_SITE/7929519] Thousand Oaks EMERGENCY DEPARTMENT</code>
+            </visit_detail>
+            <measurement start="10/08/2018 08:05 PM">
+                <code>[LOINC/8601-7] EKG impression</code>
+            </measurement>
+            <procedure_occurrence start="10/08/2018 08:05 PM">
+                <code>[SNOMED/268400002] 12 lead ECG</code>
+            </procedure_occurrence>
+            <measurement start="10/08/2018 08:05 PM">
+                <code>[LOINC/8462-4] Diastolic blood pressure 100</code>
+                <code>[LOINC/8478-0] Mean blood pressure 122 mm Hg</code>
+                <code>[LOINC/38214-3] Pain severity [Score] Visual analog score 1</code>
+                <code>[LOINC/8310-5] Body temperature 38 </code>
+                <code>[LOINC/8277-6] Body surface area 0 sq meters</code>
+                <code>[LOINC/8867-4] Heart rate 85 </code>
+                <code>[LOINC/9279-1] Respiratory rate 20 </code>
+                <code>[LOINC/29463-7] Body weight 80 kg </code>
+                <code>[LOINC/8310-5] Body temperature 98 </code>
+                <code>[LOINC/8480-6] Systolic blood pressure 165</code>
+            </measurement>
+            <observation start="10/08/2018 08:10 PM">
+                <code>[LOINC/LP21258-6] Oxygen saturation 96 %</code>
+            </observation>
+            <note type="emergency department note" start="10/08/2018 08:10 PM">
+                Emergency Department Provider Note Name: Jessica Jones, MD MRN: [1234555] ED Arrival: 10/08/2018 Room #: 17B History and Physical Triage: 52 year old woman with unknown past medical history presenting with right sided weakness since about 2 hours ago. Last known normal 5:45pm. She said she was feeling well and then suddenly noticed that her right arm and leg went limp. She denies taking any blood thinners, and has had no recent surgeries. NIHSS currently graded at an 8: 4 no movement in R arm and 4 no movement in R leg CT head is negative for any bleed or any early ischemic changes. INR is 1.0, Plt 133. Discussed with patient the severity of symptoms and the concern that they are caused by a stroke, and that IV tPA is the best medication to reduce the risk of long term deficits. Patient is agreeable and IV tPA was given at 8:20pm. Initially SBP 210/100, labetalol 5mg IV x1 given and came down to 180/90. IV tPA given after this point. Patient will need to be admitted to the ICU, with close neurological monitoring. Plan for head CT 24 hours post IV tPA administration, stroke workup including LDL, HA1C, echo, tele monitoring. Local neurology consult in AM. 
+            </note>
+            <measurement start="10/08/2018 08:15 PM">
+                <code>[LOINC/70182-1] NIHSS 8 </code>
+            </measurement>
+            <procedure_occurrence start="10/08/2018 08:15 PM">
+                <code>[LOINC/30799-1] CT head W/O contrast </code>
+            </procedure_occurrence>
+            <drug_exposure start="10/08/2018 08:20 PM">
+                <code>[RxNorm_Extension/OMOP675480] alteplase 1 MG/ML Injectable Solution</code>
+            </drug_exposure>
+            <note type="NULL" start="10/08/2018 9:00 PM">
+                Left basal ganglia acute ischemic infarct. No associated hemorrhage
+            </note>
+        </day>
+    </visit>
+    <visit type="Visit" start="10/20/2018 11:00 AM">
+        <day start="10/20/2018 11:00 AM">
+            <person> 
+                Birth: 7/19/1966 
+                Race: White 
+                Gender: FEMALE 
+                Ethnicity: Hispanic or Latino 
+                Age in Days: 19086 
+                Age in Years: 55 
+            </person>
+            <condition_occurrence start="10/20/2018 11:00 AM">
+                <code>[ICD/I63.5] Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries</code>
+            </condition_occurrence>
+            <visit_detail start="10/20/2018 11:05 AM">
+                <code>[CARE_SITE/8030520] Thousand Oaks Rehabilitation Center </code>
+            </visit_detail>
+            <measurement start="10/20/2018 11:05 AM">
+                <code>[LOINC/8601-7] EKG impression</code>
+            </measurement>
+            <procedure_occurrence start="10/20/2018 11:05 AM">
+                <code>[SNOMED/268400002] 12 lead ECG</code>
+            </procedure_occurrence>
+            <measurement start="10/20/2018 11:10 AM">
+                <code>[LOINC/8462-4] Diastolic blood pressure 90</code>
+                <code>[LOINC/8478-0] Mean blood pressure 120 mm Hg</code>
+                <code>[LOINC/38214-3] Pain severity [Score] Visual analog score 1</code>
+                <code>[LOINC/8310-5] Body temperature 38</code>
+                <code>[LOINC/8277-6] Body surface area 0 sq meters</code>
+                <code>[LOINC/8867-4] Heart rate 80</code>
+                <code>[LOINC/9279-1] Respiratory rate 20</code>
+                <code>[LOINC/29463-7] Body weight 2432.51</code>
+                <code>[LOINC/8310-5] Body temperature 98.2</code>
+                <code>[LOINC/8480-6] Systolic blood pressure 180</code>
+            </measurement>
+            <observation start="10/20/2018 11:10 AM">
+                <code>[LOINC/LP21258-6] Oxygen saturation 97 %</code>
+            </observation>
+            <note type="Inpatient Rehabilitation Note" start="10/20/2018 11:30 AM">
+                Inpatient Rehabilitation Provider Note Name: Annika Patel, MD MRN: [1234555] Arrival: 10/20/2018 Room #: 40 History and Physical Triage: 52 yo F with newly dx’d HTN, DM, HL admitted to rehab post small vessel ischemic stroke. She is progressing well in this past week with daily physical therapy. Strength has since improved objectively since her initial presentation to the ER: NIHSS initially was 8 and now it is at a 4 (weakness in the right arm and right leg). BP currently 180/90 Patient did complain of a new severe headache on the left side today post therapy, currently takes aspirin 81mg daily. Plan for CT head today to rule out any intracerebral hemorrhage post ischemic stroke, as well as labetalol 5mg IV x 1 for elevated blood pressure. If CT scan looks unrevealing, then plan for one more week of physical therapy and then likely discharge to home with home PT.
+            </note>
+            <measurement start="10/20/2018 11:30 AM">
+                <code>[LOINC/70182-1] NIHSS 4</code>
+            </measurement>
+            <drug_exposure start="10/20/2018 11:45 AM">
+                <code>[RxNorm/6185] Labetalol 5mg IV x 1</code>
+            </drug_exposure>
+            <procedure_occurrence start="10/20/2018 12:30 PM">
+                <code>[LOINC/30799-1] CT Head W/O Contrast </code>
+            </procedure_occurrence>
+            <note type="NULL" start="10/20/2018 1:45 PM">
+                No acute intracranial hemorrhage. Hypodensity noted in L basal ganglia region similar in appearance to MRI from 10/8/18.
+            </note>
+        </day>
+    </visit>
+    <visit type="Neurology Clinic Visit" start="05/15/2022 02:00 PM">
+        <day start="05/15/2022 02:00 PM">
+            <person> 
+                Birth: 7/19/1966 
+                Race: White 
+                Gender: FEMALE 
+                Ethnicity: Hispanic or Latino 
+                Age in Days: 20389 
+                Age in Years: 55 
+            </person>
+            <condition_occurrence start="05/15/2022 02:00 PM">
+                <code>[ICD/163.5] Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries</code>
+            </condition_occurrence>
+            <visit_detail start="05/15/2022 02:05 PM">
+                <code>[CARE_SITE/5439087] Thousand Oaks Medical Clinic </code>
+            </visit_detail>
+            <measurement start="05/15/2022 02:05 PM">
+                <code>[LOINC/8601-7] EKG impression</code>
+            </measurement>
+            <procedure_occurrence start="05/15/2022 02:05 PM">
+                <code>[SNOMED/268400002] 12 lead ECG</code>
+            </procedure_occurrence>
+            <measurement start="05/15/2022 02:10 PM">
+                <code>[LOINC/8462-4] Diastolic blood pressure 80</code>
+                <code>[LOINC/8478-0] Mean blood pressure 97 mm Hg</code>
+                <code>[LOINC/38214-3] Pain severity [Score] Visual analog score 1</code>
+                <code>[LOINC/8310-5] Body temperature 38.1</code>
+                <code>[LOINC/8277-6] Body surface area 0 sq meters</code>
+                <code>[LOINC/8867-4] Heart rate 80</code>
+                <code>[LOINC/9279-1] Respiratory rate 24</code>
+                <code>[LOINC/29463-7] Body weight 75 kg</code>
+                <code>[LOINC/8310-5] Body temperature 98.1</code>
+                <code>[LOINC/8480-6] Systolic blood pressure 130</code>
+            </measurement>
+            <observation start="05/15/2022 02:10 PM">
+                <code>[LOINC/LP21258-6] Oxygen saturation 99 %</code>
+            </observation>
+            <note type="Neurology Clinic Note" start="05/15/2022 02:15 PM"> 
+                Neurology Clinic Provider Note Name: James Liu, MD MRN[1234555] Clinic Arrival: 05/15/2022 Room #: 04 History and Physical Triage: 55 yo F with HTN, DM, HL presenting in follow up to neurology clinic. Patient was hospitalized last month for new left sided hemifield loss. Was out of the window for IV tPA, no large vessel occlusion seen, and found to have new ischemic infarcts, most notably in the R occipital lobe. Afib was seen on telemetry. She had been on aspirin 81mg at home but subsequently was switched to eliquis for stroke prevention given the afib. She has had no issues with eliquis so far. Exam significant for L sided hemianopsia currently, and minimal weakness in the right and left leg, 5-/5 strength 
+                MRI Brain 4/28/22: Diffuse acute-subacute ischemic infarcts, in right occipital lobe, left temporal lobe, left frontal lobe, largest in the R occipital lobe. 
+                Plan to continue eliquis, follow up with primary care physician.
+            </note>
+            <measurement start="05/15/2022 02:15 PM">
+                <code>[LOINC/70182-1] NIHSS 2</code>
+            </measurement>
+        </day>
+    </visit>
+</record>

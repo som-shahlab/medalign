@@ -1,0 +1,21 @@
+category,subcategory,description
+information retrieval,retrieve medical history,"Retrieve and summarize past descriptions of symptoms, signs, examinations, treatments, surgeries, annual physical exams"
+information retrieval,retrieve imaging studies,"Retrieve and summarize past imaging performed, any diagnostic testing including MRI, CT, EKG"
+information retrieval,retrieve social history,"Retrieve and summarize social determinants of health including marital status, alcohol use, drug use"
+information retrieval,retrieve medication information,"Retrieve and summarize medications taken, any interactions between medications, medication side effects"
+information retrieval,retrieve laboratory studies,"Retrieve and summarize past laboratory values eg from blood, urine, CSF"
+information retrieval,provide patient education information,"Provide patient education on diseases, treatments, medications, procedures, labs, imaging. Provide plain language discharge instructions: what medications to take, which appointments to go to next"
+information retrieval,retrieve appointment information,"Retrieve and summarize date/time/provider/department of appointments that the patient has been to or is planned for (video visit, in-person visits, lab visits, imaging visits)"
+information retrieval,retrieve demographics,"Retrieve and summarize demographic, insurance information, code status, power of attorney, emergency contact"
+information retrieval,retrieve vitals,"Retrieve and summarize past data regarding vital signs collected (blood pressure, heart rate, respiratory rate, O2 sat, input/output, calories in, bowel movement)"
+information retrieval,retrieve genetic and family history,Retrieve and summarize family history
+information retrieval,retrieve institutional policies,"Retrieve institutional policies, consents, guidelines"
+information retrieval,retrieve provider referrals,Retrieve and summarize referrals from one provider to another
+information retrieval,retrieve communications with patient,"Retrieve and summarize communications (email, fax, secure message) sent to patients or from patients"
+information retrieval,retrieve coding & billing information,Retrieve and summarize coding & billing information
+other,other,Instructions that do not fit into any of the other categories
+calculation & scoring,calculate numerical measures,"Using standardized tools and scores (BMI, TIMI, CHADS2VASC, ABCD2Score) calculate numerical assessments about current state or future risk"
+calculation & scoring,provide risk assessment,Provide information on risk of developing new diagnoses or complications of a diagnosis based on known clinical research
+diagnosis support,provide diagnosis assistance,Provide a differential diagnosis
+care planning,determine plan of care,"Determine a future plan of care for the patient. If a diagnosis was made, then the planned treatment. If the patient is deemed healthy, then the planned prevention. Plan of care could include follow up tests, imaging to be done in the future."
+translation,translate materials,Translate documents and instructions from one language to another language

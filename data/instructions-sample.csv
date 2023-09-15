@@ -1,0 +1,63 @@
+instruction_id,question,human_assigned_subcategory_1,source
+5479314876,Has this patient has any adverse surgical outcomes,retrieve medical history,table_s9
+6892309885,"This patient has a normal chest x-ray examination, draft a short report.",other,table_s9
+8320315711,Are there any specific cultural or religious considerations that may impact the patient's healthcare decisions or treatment options?,retrieve social history,table_s9
+2016485838,Were any complications reported during this patient's last MRI exam?,retrieve imaging studies,table_s9
+4097554401,"Based on my patient's current symptoms and medical history, do they need to be admitted to hospital?",determine plan of care,table_s9
+8048551537,What was the mechanism of this patient's wrist trauma?,retrieve medical history,table_s9
+1001007672,Does she take anything at home for sleep?,retrieve medication information,table_s9
+2524726258,Has she ever reported not feeling safe at home?,retrieve social history,table_s9
+6516282945,Has the patient had a temperature spike in the last 24 hours?,retrieve vitals,table_s9
+268587474,Does this radiology report contain PHI?,retrieve imaging studies,table_s9
+1232156184,What is the appropriate dose of Gadovist for this patient's planned MRI exam? Point me to our Wiki.,retrieve institutional policies,table_s9
+1371647687,Was a decline in kidney function observed after iodinated contrast agent administration in this patient in the past?,retrieve medical history,table_s9
+1382927007,This patient has a singular lung nodule of currently 12 mm in the left lower lobe. Please provide information about the presence and size of this nodule from previous chest CT reports.,retrieve imaging studies,table_s9
+3027022187,Does this patient have any active chronic viral infections?,retrieve medical history,table_s9
+3235374144,Provide a high-level summary of this patient's medical record.,retrieve medical history,table_s9
+4120618258,Does this patient have further appointments scheduled after his MRI examination in our hospital today?,retrieve appointment information,table_s9
+4639290627,Does this patient receive treatment for hyperthyroidism?,retrieve medication information,table_s9
+5381332380,We have implemented the production of a new PET tracer (Ga-FAPI). Draft an informative message to our referring providers at the medical oncology department,other,table_s9
+5465515571,Are there any internal discrepencies between the findings section of the report and the impression section?,retrieve imaging studies,table_s9
+7222697931,What is the patient's ASCVD risk score,calculate numerical measures,table_s9
+7925549392,Provide a summary of the current staging critieria for NSCLC and the respective source.,other,table_s9
+7733750958,Are there any concerns for drug-drug interactions or potential contraindications for this patient?,retrieve medication information,table_s9
+1296158817,Please show the patient's vital signs over the past 6 months,retrieve vitals,table_s10
+8543650684,"Does this patient often ""No Show"" for scheduled appointments?",retrieve appointment information,table_s10
+9923397605,Provide a summary of this patient's course in hospital.,retrieve medical history,table_s10
+2166124127,What details are missing from this clinical history that may be important in developing a differential diagnosis?,provide diagnosis assistance,table_s10
+4663197608,"What are the normal sizes of the liver, spleen, and kidneys for this pediatric patient?",other,table_s10
+3689784520,Who referred the patient?,retrieve provider referrals,table_s10
+4904182571,What is the patient's vaccination history for COVID,retrieve medication information,table_s10
+5076750827,When did this patient receive his last CT scan of the chest?,retrieve imaging studies,table_s10
+5195117521,"How often has this patient ""No Showed"" for appointments in the past five years?",retrieve appointment information,table_s10
+5507661121,Calculate the FRAX score for this patient.,calculate numerical measures,table_s10
+7011446235,"Given patient's labs, draft a message to the patient that is simple and clear notifiying them of their result and what it means",other,table_s10
+7191151445,"This is a new patient, given their medical history, social history, and family history, please list the indicated guideline driven tests",retrieve medical history,table_s10
+8838507848,which benzodiazepines has this patient used,retrieve medication information,table_s10
+305360979,What was the total urine output over the past 24 hours?,retrieve vitals,table_s10
+4070686544,Summarize all blood work the patient had in the past year.,retrieve laboratory studies,table_s10
+6948637845,Who was the referring provider and what is the consult question?,retrieve provider referrals,table_s10
+8485743383,This is a list of report drafts by a resident from today's chest x-ray examinations. Prioritize the order I should read them as an attending by clinical severity.,provide risk assessment,table_s10
+9009984749,Does the patient typically sleep a lot during the day?,retrieve medical history,table_s10
+813258956,What is the phone number for the patient's emergency contact?,retrieve demographics,table_s10
+3244327576,Has the patient left the hospital against medical advice,retrieve medical history,table_s10
+5246311883,Who is the resident doctor who last saw this patient?,retrieve medical history,table_s10
+5783953090,How long has this patient been in the hospital this stay?,retrieve appointment information,table_s10
+6800657251,What is the patient's last creatinine?,retrieve laboratory studies,table_s10
+762767686,This is a report draft of this patient's pelvic MRI for staging of newly diagnosed rectal cancer. Is this report complete? What information should be added?,retrieve imaging studies,table_s10
+1684780941,Provide a list of diagnostic radiation dose exposure this patient had from CT and PET in the past.,retrieve imaging studies,table_s10
+4555780918,This is a complex whole body PET/MR report. Provide a version of this report that is more concise and easier to read for the referring physician.,retrieve imaging studies,table_s10
+7651940897,These are MRI reports created as part of a clinical study. Remove all PHI from the reports and provide PHI-free versions that I can use in scientific presentation.,retrieve imaging studies,table_s10
+9481149788,Adjust d-dimer cutoffs by age to help rule out VTE,other,table_s10
+1262025045,List all the providers who have been involved in my patient's care over the past year and for what reason.,retrieve appointment information,table_s10
+5876729015,Please summarize this patient's last abdominal CT report.,retrieve imaging studies,table_s10
+1811686475,Draft preconception counseling instructions individualized for this patient that incorporates pertinent prior medical history and medications,other,table_s10
+2469800802,Are any additional vaccines recommended for this patient?,determine plan of care,table_s10
+6272518957,"Create patient instructions that summarize all the patient's medications, including precautions on drug interactions, contraindications, and guidance on lifestyle precautions due to possible adverse side effects from medications",provide patient education information,table_s10
+27057354,Has she ever been on a statin before?,retrieve medication information,table_s3
+3982443514,Summarize the most recent annual physical with the PCP,retrieve medical history,table_2
+7919636233,Create an asthma care plan for this patient based on relevant information (medications and peak flows) that includes information about a stepwise approach to asthma medications,determine plan of care,table_2
+8030863152,Identify the risk of stroke in the next 7 days for this TIA patient,provide risk assessment,table_2
+5904310365,"Based on the information I've included under HPI, what is a reasonable differential diagnosis?",provide diagnosis assistance,table_2
+7196385030,I have a patient that speaks only French. Please translate these FDG-PET exam preparation instructions for her.,translate materials,table_2
+2638304354,What patients on my service should be prioritized for discharge today?,other,table_2
